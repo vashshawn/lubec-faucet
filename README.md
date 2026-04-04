@@ -1,10 +1,10 @@
-# LUBEC Token Faucet
+# LDOGE Token Faucet
 
 <p align="center">
-  <img src="assets/LUBEC Token Icon.png" alt="LUBEC Token" width="200"/>
+  <img src="assets/LUBEC Token Icon.png" alt="LDOGE Token" width="200"/>
 </p>
 
-A production-ready Solana token faucet built on Vercel's serverless infrastructure. Distributes LUBEC tokens on Solana Devnet with seamless Phantom wallet integration.
+A production-ready Solana token faucet built on Vercel's serverless infrastructure. Distributes LDOGE tokens on Solana Maknnet with seamless Phantom wallet integration.
 
 **Live Demo:** [lubec-faucet.vercel.app](https://lubec-faucet.vercel.app)
 
