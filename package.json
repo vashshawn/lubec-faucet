@@ -1,5 +1,5 @@
 {
-  "name": "lubec-faucet",
+  "name": "ldoge-faucet",
   "version": "1.0.0",
   "dependencies": {
     "@solana/web3.js": "^1.87.6",
