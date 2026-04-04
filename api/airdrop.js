@@ -52,7 +52,7 @@ module.exports = async (req, res) => {
         const treasuryAccountInfo = await getAccount(connection, treasuryTokenAccount.address);
         console.log('Treasury balance:', Number(treasuryAccountInfo.amount) / Math.pow(10, 9), 'LUBEC');
 
-        if (Number(treasuryAccountInfo.amount) < 100 * Math.pow(10, 9)) {
+        if (Number(treasuryAccountInfo.amount) < 5 * Math.pow(10, 9)) {
             return res.status(500).json({ error: 'Faucet is out of tokens. Please contact administrator.' });
         }
 
@@ -69,7 +69,7 @@ module.exports = async (req, res) => {
 
         const amount = 100 * Math.pow(10, 9);
 
-        console.log('Transferring 100 LUBEC tokens...');
+        console.log('Transferring 5 LUBEC tokens...');
 
         const signature = await transfer(
             connection,
