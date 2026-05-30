@@ -1,7 +1,7 @@
 # LDOGE Token Faucet
 
 <p align="center">
-  <img src="assets/LUBEC Token Icon.png" alt="LDOGE Token" width="200"/>
+  <img src="assets/coin.png" alt="LDOGE Token" width="200"/>
 </p>
 
 A production-ready Solana token faucet built on Vercel's serverless infrastructure. Distributes LDOGE tokens on Solana Maknnet with seamless Phantom wallet integration.
@@ -25,7 +25,7 @@ Built as proof-of-concept for **AffiniCoin Platform** by [Steve Greene](https://
 ## 🚀 Fork & Deploy Your Own
 
 ### Prerequisites
-- A Solana token on Devnet
+- A Solana token on Mainnet
 - Wallet keypair with tokens
 - Vercel account (free)
 
